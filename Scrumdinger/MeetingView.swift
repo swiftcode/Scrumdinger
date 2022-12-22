@@ -10,12 +10,12 @@ import SwiftUI
 struct MeetingView: View {
     var body: some View {
         VStack {
-            ProgressView(value: 50, total: 100)
+            ProgressView(value: 0, total: 100)
             
             HStack {
                 VStack {
                     Text("Seconds elapsed")
-                    Label("300", systemImage: "hourglass.bottomhalf.fill")
+                    Label("0", systemImage: "hourglass.bottomhalf.fill")
                 }
                 
                 Spacer()
